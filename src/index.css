@@ -90,7 +90,65 @@
   width: 80px;
   height: 41px;
   border-radius: 50px;
-  background-color: rgb(179, 179, 179);
+  background-color: #f8f9fa;
   color: black;
   border: none;
+}
+/* =======================Items=============================== */
+.row .item{
+  height: fit-content;
+  border-radius: 12px;
+  width: 320px;
+  margin: 10px;
+  justify-content: center;
+}
+.items .item-img{
+  height: 250px;
+  width: 320px;
+  background-color: #f8f9fa;
+  margin: 0; 
+}
+.items .row{
+  justify-content: space-between;
+    margin: 0 50px;
+}
+.items .stars{
+  color: black;
+}
+.items .item-details{
+  padding: 5px;
+}
+.item-details .addCart{
+  border-radius: 20px;
+}
+.item-details .item-heading{
+  justify-content: space-between;
+  margin-top: 8px;
+
+}
+.item-heading .item-name{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.item-heading .item-price{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.item-details .btn-like{
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-like .like{
+  font-size: 24px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-basis: 25%;
+  padding: 10px;
+  box-sizing: border-box;
 }
