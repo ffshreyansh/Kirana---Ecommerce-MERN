@@ -4,9 +4,7 @@ import '../index.css';
 function Items(props) {
   return (
     <div className="items">
-    <div className="row g-0 d-flex">
-      <div className="col-lg-3 col-md-6 item">
-        <div className='item-img'></div>
+        <div className='item-img'><img src={props.img} alt="" /></div>
         <div className='item-details'>
           <div className='item-heading d-flex'>
             <h2 className='item-name'>{props.name}</h2>
@@ -34,8 +32,6 @@ function Items(props) {
           </div>
         </div>
       </div>
-    </div>
-  </div>
   )
 }
 
